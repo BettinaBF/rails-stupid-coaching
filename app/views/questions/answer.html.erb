@@ -1,0 +1,12 @@
+<div class = "container">
+  <h1>Stupid Coach</h1>
+  <div>
+    <p><%= @user_input%></p>
+    <p style = "font-style: italic">-You</p>
+  </div>
+  <div style = "background-color: #FFFEE1">
+    <p style = "font-weight: bold"><%= @coach_answer%></p>
+    <p style = "font-style: italic">Your Coach</p>
+  </div>
+<%= link_to "ask another question", ask_path %>
+</div>
